@@ -2,21 +2,29 @@ export default function Blog(){
 
 return(
 
-<div style={{padding:"60px"}}>
+<main style={{
+background:"black",
+color:"white",
+minHeight:"100vh",
+padding:"60px"
+}}>
 
-<h1>Journal de slam</h1>
+<h1>Blog Slam Poetry</h1>
 
-<article>
-
-<h2>Poème : Je veux l’aimer, pas la réparer</h2>
+<h2>Poésie du Sahara</h2>
 
 <p>
-Texte du slam ici...
+Entre sable et silence, la poésie devient voix.
 </p>
 
-</article>
+<h2>Slam et festivals internationaux</h2>
 
-</div>
+<p>
+Le slam est aujourd'hui présent dans les festivals
+de littérature et de spoken word à travers le monde.
+</p>
+
+</main>
 
 )
 
