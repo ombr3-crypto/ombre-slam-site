@@ -3,7 +3,7 @@ export default function Press() {
   return (
 
     <main style={{
-      background:"coffee",
+      background:"linear-gradient(180deg, #1a1a1a 0%, #6F4E37 120%)",
       color:"white",
       minHeight:"100vh",
       padding:"60px",
@@ -24,7 +24,7 @@ export default function Press() {
           href="/presskit.pdf"
           style={{
             background:"#E2725B",
-            color:"beige",
+            color:"white",
             padding:"15px 35px",
             textDecoration:"none",
             fontWeight:"bold",

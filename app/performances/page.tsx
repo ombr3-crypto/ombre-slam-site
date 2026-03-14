@@ -3,7 +3,7 @@ export default function Performances() {
   return (
 
     <main style={{
-      background:"coffee",
+      background:"linear-gradient(180deg, #1a1a1a 0%, #6F4E37 120%)",
       color:"white",
       minHeight:"100vh",
       padding:"60px",
@@ -31,8 +31,8 @@ export default function Performances() {
         <h2>Niger</h2>
         <p>Performance poésie — Niamey</p>
 
-        <h2>France</h2>
-        <p>Festival de poésie contemporaine</p>
+        <h2>Bruxelles</h2>
+        <p>Festival de poésie</p>
 
       </div>
 

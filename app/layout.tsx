@@ -17,7 +17,7 @@ export default function RootLayout({
       <body style={{margin:0,fontFamily:"sans-serif"}}>
 
         <nav style={{
-          background:"coffee",
+          background:"black",
           padding:"20px",
           display:"flex",
           gap:"30px",

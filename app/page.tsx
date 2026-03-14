@@ -7,7 +7,7 @@ export default function Home() {
   const poem = [
     "Je viens de la terre des laissées pour compte,les oubliées",
     "là où le silence berce les maux",
-    "et endort les mots dits.Maudite poésie qu'as tu fait de moi?",
+    "et endort les mots dits. Maudite poésie qu'as tu fait de moi?",
     "Ombre",
     "Slam Poet"
   ]
@@ -27,7 +27,7 @@ export default function Home() {
   return (
 
     <main style={{
-      background:"linear-gradient(180deg, black 60%, #E2725B 200%)",
+      background:"linear-gradient(180deg, #1a1a1a 0%, #6F4E37 120%)",
       minHeight:"100vh",
       color:"white",
       display:"flex",

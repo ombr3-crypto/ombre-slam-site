@@ -3,7 +3,7 @@ export default function Videos() {
   return (
 
     <main style={{
-      background:"coffee",
+      background:"linear-gradient(180deg, #1a1a1a 0%, #6F4E37 120%)",
       color:"white",
       minHeight:"100vh",
       padding:"60px",
