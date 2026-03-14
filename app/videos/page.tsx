@@ -1,34 +1,16 @@
 export default function Videos() {
+  return (
+    <main style={{padding:"40px",background:"black",color:"white",minHeight:"100vh"}}>
 
-return (
+      <h1>Performances Slam</h1>
 
-<div style={{padding:"60px"}}>
+      <iframe
+        width="800"
+        height="450"
+        src="https://www.youtube.com/embed/https://www.youtube.com/channel/UCSuPtEzmIFB3yaZKEC02r0Q"
+        title="slam video"
+      />
 
-<h1>Performances</h1>
-
-<div style={{
-display:"grid",
-gridTemplateColumns:"1fr 1fr",
-gap:"30px"
-}}>
-
-<iframe
-width="100%"
-height="315"
-src="https://www.youtube.com/embed/VIDEO_ID"
-title="Slam performance"
-/>
-
-<iframe
-width="100%"
-height="315"
-src="https://www.youtube.com/embed/VIDEO_ID"
-/>
-
-</div>
-
-</div>
-
-)
-
+    </main>
+  )
 }
