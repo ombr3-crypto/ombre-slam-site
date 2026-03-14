@@ -68,7 +68,7 @@ export default function Home() {
           href="/booking"
           style={{
             background:"#E2725B",
-            color:"black",
+            color:"coffee",
             padding:"15px 35px",
             textDecoration:"none",
             fontWeight:"bold",

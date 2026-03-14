@@ -3,7 +3,7 @@ export default function Performances() {
   return (
 
     <main style={{
-      background:"beige",
+      background:"coffee",
       color:"white",
       minHeight:"100vh",
       padding:"60px",
