@@ -1,8 +1,15 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Ombre – Fatou Ma Ta | Slam Poet",
-  description: "Poésie slam du Sahara aux scènes internationales",
+  title: "Ombre – Fatou Ma Ta | Slam Poet Festival Performer",
+  description: "Ombre - Fatou Ma Ta is a slam poet international spoken word and poetry festivals",
+  keywords: [
+    "slam poet",
+    "spoken word artist",
+    "poetry festival performer",
+    "slam poetry performance",
+    "African slam poet"
+  ],
 };
 
 export default function RootLayout({
