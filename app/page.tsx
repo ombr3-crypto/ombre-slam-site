@@ -85,7 +85,7 @@ export default function Home() {
         <iframe
           width="100%"
           height="500"
-          src="https://www.youtube.com/embed/https://youtu.be/AH6mYGiO9u4?si=0rRAhg_POiI8CmNE"
+          src="https://www.youtube.com/embed/0rRAhg_POiI8CmNE"
           title="Slam performance"
         />
 

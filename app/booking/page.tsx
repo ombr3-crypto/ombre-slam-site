@@ -35,7 +35,7 @@ literature events and cultural programs.
 <h2>Booking contact</h2>
 
 <p>
-Email : booking@email.com
+Email : fatoumataslam@gmail.com
 </p>
 
 </main>
