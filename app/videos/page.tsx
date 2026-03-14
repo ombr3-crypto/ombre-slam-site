@@ -1,30 +1,41 @@
-export default function Videos(){
+export default function Videos() {
 
-return(
+  return (
 
-<main style={{
-background:"black",
-color:"white",
-minHeight:"100vh",
-padding:"60px",
-textAlign:"center"
-}}>
+    <main style={{
+      background:"beige",
+      color:"white",
+      minHeight:"100vh",
+      padding:"60px",
+      textAlign:"center"
+    }}>
 
-<h1 style={{fontSize:"40px"}}>Performances Slam</h1>
+      <h1 style={{fontSize:"48px"}}>
+        Videos
+      </h1>
 
-<div style={{marginTop:"40px"}}>
+      <p style={{marginTop:"20px"}}>
+        Live slam performances and poetry readings.
+      </p>
 
-<iframe
-width="800"
-height="450"
-src="https://www.youtube.com/embed/https://youtu.be/AH6mYGiO9u4?si=0rRAhg_POiI8CmNE"
-title="slam video"
-/>
+      <div style={{
+        marginTop:"60px",
+        maxWidth:"900px",
+        marginLeft:"auto",
+        marginRight:"auto"
+      }}>
 
-</div>
+        <iframe
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/embed/oj1dhhn5xFKtOgXR"
+          title="Slam performance"
+          allowFullScreen
+        />
 
-</main>
+      </div>
 
-)
+    </main>
 
+  )
 }

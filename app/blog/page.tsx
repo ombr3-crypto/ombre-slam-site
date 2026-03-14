@@ -3,18 +3,19 @@ export default function Blog(){
 return(
 
 <main style={{
-background:"black",
+background:"beige",
 color:"white",
 minHeight:"100vh",
-padding:"60px"
+padding:"60px",
+textAlign:"center"
 }}>
 
 <h1>Blog Slam Poetry</h1>
 
-<h2>Poésie du Sahara</h2>
+<h2>des mots dits</h2>
 
 <p>
-Entre sable et silence, la poésie devient voix.
+Entre silence et oubli.
 </p>
 
 <h2>Slam et festivals internationaux</h2>

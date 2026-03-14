@@ -1,36 +1,42 @@
-"use client"
+export default function Performances() {
 
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
-import "leaflet/dist/leaflet.css"
+  return (
 
-export default function Performances(){
+    <main style={{
+      background:"beige",
+      color:"white",
+      minHeight:"100vh",
+      padding:"60px",
+      textAlign:"center"
+    }}>
 
-return(
+      <h1 style={{fontSize:"48px"}}>
+        Performances
+      </h1>
 
-<div style={{height:"100vh"}}>
+      <p style={{
+        maxWidth:"700px",
+        margin:"20px auto",
+        lineHeight:"1.6"
+      }}>
+        Ombre performs internationally at poetry festivals,
+        cultural institutions and spoken word events.
+      </p>
 
-<MapContainer
-center={[20,0]}
-zoom={2}
-style={{height:"100%", width:"100%"}}
->
+      <div style={{marginTop:"60px"}}>
 
-<TileLayer
-url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-/>
+        <h2>Montréal</h2>
+        <p>Festival Slam Montréal</p>
 
-<Marker position={[45.5,-73.5]}>
-<Popup>Montréal — Festival Slam</Popup>
-</Marker>
+        <h2>Niger</h2>
+        <p>Performance poésie — Niamey</p>
 
-<Marker position={[13.5,2.1]}>
-<Popup>Niger — Performance Poésie</Popup>
-</Marker>
+        <h2>France</h2>
+        <p>Festival de poésie contemporaine</p>
 
-</MapContainer>
+      </div>
 
-</div>
+    </main>
 
-)
-
+  )
 }

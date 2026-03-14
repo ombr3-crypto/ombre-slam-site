@@ -1,51 +1,39 @@
-import "./globals.css";
+import "./globals.css"
+import React from "react"
 
 export const metadata = {
-  title: "Ombre – Fatou Ma Ta | Slam Poet Festival Performer",
-  description: "Ombre - Fatou Ma Ta is a slam poet international spoken word and poetry festivals",
-  keywords: [
-    "slam poet",
-    "spoken word artist",
-    "poetry festival performer",
-    "slam poetry performance",
-    "African slam poet"
-  ],
-};
+  title: "Ombre — Slam Poet",
+  description: "Slam poet — festivals, performances, poetry"
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
+
   return (
     <html lang="fr">
-      <body
-        style={{
-          margin: 0,
-          fontFamily: "sans-serif",
-          background: "black",
-          color: "white",
-        }}
-      >
-        <nav
-          style={{
-            display: "flex",
-            gap: "20px",
-            padding: "20px",
-            background: "#1a1a1a",
-          }}
-        >
-          <a href="/">Accueil</a>
-          <a href="/performances">Performances</a>
-          <a href="/videos">Videos</a>
-          <a href="/blog">Blog</a>
-          <a href="/booking">Booking</a>
-          <a href="/press">Press</a>
+      <body style={{margin:0,fontFamily:"sans-serif"}}>
+
+        <nav style={{
+          background:"beige",
+          padding:"20px",
+          display:"flex",
+          gap:"30px",
+          justifyContent:"center"
+        }}>
+          <a href="/" style={{color:"white"}}>Accueil</a>
+          <a href="/performances" style={{color:"white"}}>Performances</a>
+          <a href="/videos" style={{color:"white"}}>Vidéos</a>
+          <a href="/press" style={{color:"white"}}>Press</a>
+          <a href="/booking" style={{color:"white"}}>Booking</a>
+          <a href="/blog" style={{color:"white"}}>Blog</a>
         </nav>
 
         {children}
 
       </body>
     </html>
-  );
+  )
 }

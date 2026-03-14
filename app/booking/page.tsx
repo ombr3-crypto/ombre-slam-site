@@ -3,7 +3,7 @@ export default function Booking(){
 return(
 
 <main style={{
-background:"black",
+background:"beige",
 color:"white",
 minHeight:"100vh",
 padding:"60px"
